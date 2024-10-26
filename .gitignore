@@ -2,4 +2,4 @@
 .vagrant/
 
 # Backup VMFiles ignore
-named
+named*
