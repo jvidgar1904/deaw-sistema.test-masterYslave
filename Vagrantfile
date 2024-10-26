@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
     tierra.vm.network "private_network", ip: "192.168.57.103"
     tierra.vm.hostname = "tierra.sistema.test"
     tierra.vm.provision "shell", inline: <<-SHELL
-
+      cp -v /vagrant/named /etc/default/
     SHELL
   end #tierra
 
